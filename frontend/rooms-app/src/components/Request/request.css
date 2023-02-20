@@ -1,0 +1,62 @@
+.requests-container {
+      max-width: max-content;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.requests-container h1 {
+      align-self: flex-start;
+}
+
+.request-card {
+      display: flex;
+      flex-direction: column;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 10px 20px 20px 20px;
+      border-radius: 15px;
+      font-size: 27px;
+      width: 100%;
+      align-items: center;
+}
+
+.request-card a span {
+      color: black;
+}
+
+.request-card span,
+.request-card a {
+      font-weight: bolder;
+}
+
+.request-answer-part {
+      display: flex;
+      gap: 40px;
+}
+
+.request-answer-part button {
+      width: 200px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      background-image: linear-gradient(rgb(26, 123, 250), rgb(57, 138, 243));
+      font-size: 17px;
+      font-weight: bolder;
+}
+
+.request-answer-part button:hover {
+      background-image: linear-gradient(rgb(72, 143, 235), rgb(83, 135, 204));
+}
+
+.req-card-top {
+      display: flex;
+      gap: 7px;
+      align-items: center;
+}
+
+.req-card-top a:hover {
+      text-decoration: underline;
+}

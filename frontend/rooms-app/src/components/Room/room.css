@@ -1,0 +1,209 @@
+.room-container {
+      max-width: 750px;
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+
+.room-name {
+      display: flex;
+      /* background-color: red; */
+      align-items: center;
+      gap: 20px;
+}
+
+.members-button {
+      margin-left: 50px;
+      padding: 15px;
+      border: none;
+      background-image: linear-gradient(rgb(26, 123, 250), rgb(30, 109, 212));
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: larger;
+}
+
+.members-button:hover {
+      background-image: linear-gradient(rgb(72, 143, 235), rgb(83, 135, 204));
+}
+
+.door-icon {
+      width: 100px;
+      height: 100px;
+}
+
+.room-name p {
+      font-size: 50px;
+      font-weight: bolder;
+}
+
+.room-posts {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+}
+
+.post {
+      display: flex;
+      flex-direction: column;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 20px 20px 10px 20px;
+      border-radius: 20px;
+}
+
+.post-content {
+      margin-left: 40px;
+}
+
+
+.new-post {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+}
+
+.new-post p {
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.plus-icon {
+      width: 30px;
+      height: 30px;
+      padding: 3px;
+      border-radius: 7px;
+}
+
+.plus-icon:hover {
+      background-color: rgb(196, 189, 189);
+}
+
+.new-post-card {
+      margin-bottom: 40px;
+}
+
+.new-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+}
+
+.new-card-top p {
+      font-size: 20px;
+      font-weight: bold;
+}
+
+.close-button {
+      width: 25px;
+      height: 25px;
+      padding: 3px;
+      border-radius: 7px;
+}
+
+.close-button:hover {
+      background-color: rgb(196, 189, 189);
+}
+
+.create-post-part textarea {
+      width: 750px;
+      height: 60px;
+      resize: none;
+      font-size: 16px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 7px;
+      border: 2px solid black;
+}
+
+.create-post-part textarea:focus {
+      outline: none;
+      border: 2px solid rgb(26, 123, 250);
+}
+
+.create-post-part {
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+.create-post-part button {
+      width: 200px;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      background-image: linear-gradient(rgb(26, 123, 250), rgb(57, 138, 243));
+      font-size: 17px;
+      font-weight: bolder;
+      align-self: flex-end;
+}
+
+.create-post-part button:hover {
+      background-image: linear-gradient(rgb(72, 143, 235), rgb(83, 135, 204));
+}
+
+.room-name-role {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+}
+
+.room-name-role p:last-child {
+      font-size: 30px;
+      align-self: center;
+      color: rgb(80, 80, 80);
+}
+
+.post-upper-part {
+      display: flex;
+      justify-content: space-between;
+}
+
+.delete-icon {
+      align-self: center;
+      height: 25px;
+      width: 25px;
+      padding: 5px;
+      border-radius: 7px;
+}
+
+.delete-icon:hover {
+      background-color: rgb(196, 189, 189);
+}
+
+.all-room-cards-container {
+      max-width: 1000px;
+      margin: 40px auto;
+}
+
+.post-upper-part a {
+      color: black;
+      align-self: center;
+      font-size: 20px;
+      font-weight: bolder;
+}
+
+.post-upper-part a:hover {
+      text-decoration: underline;
+}
+
+.post-user-tag {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+}
+
+.post-user-tag button {
+      border: none;
+      border-radius: 7px;
+      padding: 5px;
+      background-image: linear-gradient(rgba(243, 7, 7, 0.521), rgba(199, 20, 20, 0.753));
+      color: white;
+      font-weight: bold;
+}
+
+.post-user-tag button:hover {
+      background-image: linear-gradient(rgb(241, 88, 88), rgb(255, 13, 13));
+}

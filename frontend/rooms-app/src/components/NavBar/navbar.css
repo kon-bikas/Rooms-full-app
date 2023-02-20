@@ -1,0 +1,54 @@
+header {
+
+      width: 100vw;
+      height: max-content;
+      background-image: linear-gradient(rgb(5, 101, 226), rgb(35, 98, 180));
+      color: white;
+      padding: 5px;
+      box-sizing: border-box;
+      
+}
+
+.nav-container {
+
+      max-width: 1000px;
+      margin: 0 auto;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+}
+
+.nav-list ul {
+
+      list-style-type: none;
+      display: flex;
+      gap: 100px;
+      margin-right: 20px;
+
+}
+
+.nav-items {
+
+      display: flex;
+      height: 100%;
+      align-items: center;
+
+}
+
+a {
+
+      text-decoration: none;
+      color: white;
+
+}
+
+.nav-list ul li a {
+      padding: 5px;
+      border-radius: 7px;
+}
+
+.nav-list ul li a:hover {
+      background-color: rgb(121, 175, 245);
+}
